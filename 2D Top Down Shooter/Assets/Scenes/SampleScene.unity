@@ -627,6 +627,9 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 1400091707}
   weapon: {fileID: 260896881}
+  dashSpeed: 10
+  dashLength: 100
+  dashCooldown: 1
 --- !u!1 &1543842199
 GameObject:
   m_ObjectHideFlags: 0
