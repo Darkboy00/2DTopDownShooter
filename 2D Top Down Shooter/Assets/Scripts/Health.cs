@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
         {
             GameControl.health += 1;
             Destroy(gameObject);
+            AudioManager.Instance.PlaySFX("Heartbeat");
         }
     }
 }
