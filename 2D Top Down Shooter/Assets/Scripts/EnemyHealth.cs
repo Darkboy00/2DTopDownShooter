@@ -17,6 +17,7 @@ public class EnemyHealth : MonoBehaviour
             if(health <= 0)
             {
                 Destroy(gameObject);
+                AudioManager.Instance.PlaySFX("EnemyDead");
                 health = 8;
             }
         }
